@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "jsx": "react-jsx",            // ✅ Enables JSX parsing
+    "allowJs": true,               // ✅ Allows analyzing `.js` and `.jsx` files
+    "checkJs": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": ["ESNext", "DOM"],
+    "skipLibCheck": true
+  },
+  "include": ["./"]
+}
+
+const project = new Project({
+  tsConfigFilePath: path.resolve(__dirname, "tsconfig.json"), // ✅ Ensure relative to `analyze.js`
+  skipAddingFilesFromTsConfig: true,
+});
+
+
+my-app/
+├── react-ui/
+│   └── (Your React code here)
+├── api/
+│   ├── analyzer/
+│   │   ├── analyze.js
+│   │   ├── tsconfig.json  ✅ Place it here
+│   └── server.js
+└── ...
