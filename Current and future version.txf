@@ -1,0 +1,36 @@
+Current Version 
+[ GitHub Repo ]
+      |
+[ Analyze.js (ts-morph + fast-glob) ]
+      |
+[ component-metadata.json ]
+      |
+[ React UI ]
+ ├── ComponentInteractionGraph
+ ├── MethodFlowGraph
+ └── StatePropsDiagram
+
+Future version
+
+[ GitHub Repo ]
+      |
+[ Enhanced Analyzer ]
+ ├── Multi-language Support (React, Angular)
+ ├── Advanced Static Analysis Engine
+ └── AI Code Review Engine (LLM)
+
+      ↓
+
+[ component-metadata.json (rich metadata) ]
+ ├── State, Props
+ ├── Methods & Flow
+ ├── Lifecycle Mapping
+ ├── AI-generated Descriptions & Warnings
+
+      ↓
+
+[ React UI ]
+ ├── Visual Dashboards
+ ├── Flowcharts (Vertical + Horizontal)
+ ├── Metrics Charts (Complexity, #States)
+ └── AI Code Review Tab
