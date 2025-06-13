@@ -1,0 +1,29 @@
+ Slide 8: Cost & Efficiency Benefits
+Benefit Area	Current Approach	Future System Impact
+Developer Time	Manual code tracing, longer onboarding	🔻 40–60% reduction via auto-diagrams & metadata
+Bug Detection	Manual debugging	🔍 Visual state/method/lifecycle maps enable faster issue spotting
+Project Onboarding	Slow understanding curve	📈 New devs grasp architecture in minutes
+Code Reviews	Time-consuming	✅ Automated insights + lifecycle view aid reviewers
+Rework / Refactoring	Risky and time-intensive	🔄 Visualization ensures safe refactor with context
+Tooling Cost	Manual/fragmented tools	🧩 Unified dashboard replaces many separate tools
+Collaboration	Less effective cross-team	🤝 Shared visual context improves team communication
+
+📈 ROI Projection (optional chart)
+Include a simple bar or line chart comparing estimated:
+
+Developer hours saved
+
+Estimated bug fix time reduction
+
+Time to onboard a new team member
+
+E.g., "From 3 days → 3 hours"
+
+🧮 Slide 9: Estimated Savings (example)
+Metric	Baseline	Future System
+Avg. Dev Debug Time/Week	8 hours	3 hours
+Avg. Onboarding Time	3 days	0.5 days
+Avg. Bugs Missed/Release	5	1–2
+Yearly Dev Time Saved	~250+ hrs	~650+ hrs
+
+📌 Assumes a mid-sized team of 5–8 developers
