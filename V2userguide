@@ -1,0 +1,28 @@
+# V2 User Guide
+
+## Use Case
+Java merge conflicts after pull/merge.
+
+## Prompt
+
+Use Merge Conflict Agent.
+Current branch: feature/payment
+Merged develop.
+Balanced mode.
+
+## What Happens
+
+1. Detect conflicted files
+2. Use Bitbucket-CLI metadata
+3. Resolve safe conflicts
+4. Ask user on risky files
+5. Run compile
+6. Generate CSV logs
+
+## Outputs
+
+Reports folder:
+before.csv
+actions.csv
+after.csv
+summary.md
