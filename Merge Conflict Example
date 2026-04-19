@@ -1,0 +1,47 @@
+User:
+Use Merge Conflict Agent V3.
+Merged develop into feature/orders-ui.
+
+Agent:
+Detected 9 conflicted files.
+
+Backend:
+PaymentService.java
+pom.xml
+
+Frontend:
+App.tsx
+routes.tsx
+package.json
+
+Auto-resolved 6 files.
+
+Need your input:
+1. App.tsx hook logic conflict
+2. pom.xml Spring version conflict
+
+User chooses options.
+
+Agent:
+Running backend compile...
+FAILED
+
+Diagnosing...
+Missing import in PaymentService.java fixed.
+
+Re-running compile...
+PASS
+
+Running npm build...
+FAILED
+
+Diagnosing...
+Route export mismatch fixed.
+
+Re-running build...
+PASS
+
+Running tests...
+PASS
+
+Reports generated.
