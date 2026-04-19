@@ -1,0 +1,33 @@
+# V3 User Guide
+
+## Use Case
+Java + React full stack merge conflicts.
+
+## Prompt
+
+Use Merge Conflict Agent V3.
+Current branch: feature/customer-ui
+Merged develop.
+Balanced mode.
+Enable Jira summary: No
+
+## What Happens
+
+1. Detect backend + frontend conflicts
+2. Resolve Java / React / YAML / package conflicts
+3. Run Maven/Gradle compile
+4. Run npm build/tests
+5. If failures occur:
+   - Diagnose
+   - Patch
+   - Retry automatically
+6. Repeat until pass or max loops reached
+7. Generate reports
+
+## Example Result
+
+Resolved files: 12
+Manual decisions: 2
+Backend compile: PASS
+Frontend build: PASS
+Tests: PASS after 2 retries
